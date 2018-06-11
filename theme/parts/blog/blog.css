@@ -1,0 +1,43 @@
+.blog-section{
+    border-top: 10px solid #9a9a9a;
+    border-bottom: 10px solid #9a9a9a;
+    background-color: #e0e0e0;
+    padding: 25px 0 25px 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.blog-section h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.posts-container{
+    padding:0 25px 0 25px;
+}
+
+.post-line{
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+.post-line .post-container{
+    height: 250px;
+    width: 750px;
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 10px;
+}
+
+.post-line .post-container.right{
+    right:0px;
+}
+
+.post-line .post-container.left{
+    left:0px;
+}

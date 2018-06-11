@@ -1,0 +1,41 @@
+/*
+Theme Name:     teste-tuut
+Author:         Merielene Nascimento
+Description:    estilo básico to tema para o desafio da tuut
+Version:        1.0.0
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    owl
+WordPress Available:  yes
+Requires License:    no
+*/
+
+/*HEADER*/
+
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 15px;
+}
+
+.header h1{
+    color: white;
+    margin-left: 39px;
+    font-weight: 900;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+}
+
+.header ul li {
+    margin: 15px 45px 15px 15px;
+}

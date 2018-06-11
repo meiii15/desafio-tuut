@@ -1,0 +1,27 @@
+.galery-section{
+    border-top: 10px solid #9a9a9a;
+    border-bottom: 10px solid #9a9a9a;
+    background-color: #e0e0e0;
+    padding: 25px 0 25px 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.galery-section 
+.galery-carousel {
+    width: 100%;
+}
+
+.galery-section h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.galery-section 
+.galery-carousel 
+.carousel.slide 
+.carousel-inner 
+.carousel-item{
+    max-height: 500px;
+}
