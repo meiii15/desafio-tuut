@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var del = require('del');
 
 var disThemePath = "C:/xampp/htdocs/WP/wp-content/themes/teste-tuut";
-var pluginsPath = "/home/pedro/wordpress/wp-content/plugins";
+var pluginsPath = "C:/xampp/htdocs/WP/wp-content/plugins";
 
 gulp.task('update:theme', function(){
     return gulp

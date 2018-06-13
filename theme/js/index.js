@@ -1,0 +1,1 @@
+var AJAX_URL = 'http://'  +  window.location.hostname  + '/wp/wp-admin/admin-ajax.php';

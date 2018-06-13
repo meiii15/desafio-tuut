@@ -1,3 +1,30 @@
 .projects-section{
-    height: 1000px;
+    display: flex;
+    flex-flow: column;
+}
+
+.projects-section h3{
+    width: 100%;
+    text-align: center;
+}
+
+.projects-container{
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: 36px;
+    padding: 20;
+    margin: 10;
+    text-align: center;
+}
+
+.projects-list{
+    width:40%;
+    max-width: 500px;
 }

@@ -10,15 +10,3 @@
     wp_enqueue_script('jquery');
     wp_enqueue_script('bootstrap');
 ?>
-
-
-<div class="header">
-    <!--FIXME: LOGO DEVE VIR AQUI-->
-    <h1>TUUT</h1>
-
-    <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Contato</li>
-    </ul>
-</div>
