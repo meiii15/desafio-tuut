@@ -18,7 +18,9 @@
             <div class="project-description">
             </div>
 
-            <div class="project-title">
+            <div class="project-title-container">
+                <div class="project-title">
+                </div>
             </div>
         </div>
     </div>

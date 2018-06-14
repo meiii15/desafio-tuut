@@ -4,7 +4,7 @@
     var description = $('.project-description')[0];
     var title = $('.project-title')[0];
     
-    var target = 'http://'  +  window.location.hostname  + '/wp/wp-admin/admin-ajax.php' ;
+    var target = 'http://' +  window.location.hostname  + '/wp/wp-admin/admin-ajax.php' ;
     
     var projects;
 

@@ -9,7 +9,7 @@
 }
 
 .projects-container{
-    height: 750px;
+    height: 500px;
     display: flex;
     justify-content: space-around;
 }
@@ -19,7 +19,7 @@
     background-color: gray;
     color: white;
     font-size: 36px;
-    padding: 20;
+    padding: 5;
     margin: 10;
     text-align: center;
 }
@@ -27,4 +27,32 @@
 .projects-list{
     width:40%;
     max-width: 500px;
+}
+
+.project-area{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.project-description{
+    text-align: center;
+    margin: 25;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project-title-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-title{
+    height: 140px;
+    padding: 25px 50px 25px 50px;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: e0e0e0;
 }
