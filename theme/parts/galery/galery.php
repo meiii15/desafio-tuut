@@ -1,6 +1,9 @@
 <?php
     wp_register_style('galery-style', get_template_directory_uri().'/parts/galery/galery.css');
-    wp_enqueue_style('galery-style');  
+    wp_enqueue_style('galery-style');
+    
+    wp_register_script('galery-script', get_template_directory_uri().'/parts/galery/galery.js');
+    wp_enqueue_script('galery-script');
 ?>
 
 

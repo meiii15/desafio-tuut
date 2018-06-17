@@ -6,7 +6,9 @@
 ?>
 
 <section class="opening">
-    <img class="opening-banner" src="<?php echo get_template_directory_uri()."/imgs/opening-bkg.jpg"; ?>"/>
+    <div class="opening-banner-container">
+        <img class="opening-banner" src="<?php echo get_template_directory_uri()."/imgs/opening-bkg.jpg"; ?>"/>
+    </div>
 
     <div class="about-us-container">
         <h3>Sobre a TUUT</h3>

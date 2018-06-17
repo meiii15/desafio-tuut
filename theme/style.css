@@ -39,3 +39,29 @@ Requires License:    no
 .header ul li {
     margin: 15px 45px 15px 15px;
 }
+
+.footer{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.footer h2{
+    color: white;
+    margin: 25px 39px 25px 39px;
+    font-weight: 900;
+}
+
+.footer .social-media {
+    margin: 20px;
+}
+
+.footer .social-media .social-media-icon{
+    height: 50px;
+    widows: 50px;
+    border: solid 3px white;
+    border-radius: 50%;
+    margin: 5px;
+}

@@ -1,5 +1,11 @@
 section.opening{
     width: 100%;
+    height: 60pc;
+}
+
+section.opening .opening-banner-container{
+    height: calc(100% - 250px);
+    overflow: hidden;
 }
 
 section.opening .opening-banner{

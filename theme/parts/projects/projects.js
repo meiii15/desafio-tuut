@@ -31,7 +31,6 @@
 
             projectsList.append(projectItemList[0]);
         }
-
         showProjectDetails(1);
     });
 

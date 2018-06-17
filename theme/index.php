@@ -18,6 +18,15 @@
     <?php get_template_part('parts/projects/projects')?>
     <?php get_template_part('parts/blog/blog')?>
     <?php get_template_part('parts/footer/footer')?>
+
+    <div class="footer">
+        <h2>TUUT</h2>
+
+        <div class="social-media">
+            <img class="social-media-icon" src="<?php echo get_template_directory_uri()."/imgs/facebook-icon.png"; ?>"/>
+            <img class="social-media-icon" src="<?php echo get_template_directory_uri()."/imgs/instagram-icon.png"; ?>"/>
+        </div>
+    </div>
 </body>
 
 <?php
