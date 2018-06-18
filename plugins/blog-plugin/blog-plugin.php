@@ -10,9 +10,16 @@
      */
 
     class Blog{
-        public function get_recent_posts()
+        function __construct()
         {
-            
+            add_action('wp_ajax_', array($this, 'fetch_recent_posts'));
+        }
+        
+        public function fetch_recent_posts()
+        {
+            $recent_posts = wp_get_recent_posts();
+
+            return wp_send_json($recent_posts);
         }
     }
 ?>
