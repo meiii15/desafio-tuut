@@ -12,7 +12,7 @@
     class Blog{
         function __construct()
         {
-            add_action('wp_ajax_', array($this, 'fetch_recent_posts'));
+            add_action('wp_ajax_fetch_recent_posts', array($this, 'fetch_recent_posts'));
         }
         
         public function fetch_recent_posts()
@@ -22,4 +22,18 @@
             return wp_send_json($recent_posts);
         }
     }
+
+    function Blog()
+    {
+        global $blog;
+
+        if(!isset($blog))
+        {
+            $blog = new Blog();
+        }
+
+        return $blog;
+    }
+
+    Blog();
 ?>
