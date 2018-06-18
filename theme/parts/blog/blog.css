@@ -13,8 +13,16 @@
     font-weight: bold;
 }
 
+.posts-container-horizontal{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .posts-container{
-    padding:0 25px 0 25px;
+    padding: 0 25px 0 25px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .post-line{
