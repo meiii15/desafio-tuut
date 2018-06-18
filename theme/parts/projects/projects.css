@@ -11,7 +11,8 @@
 .projects-container{
     height: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
 }
 
 .project-item{
@@ -25,12 +26,14 @@
 }
 
 .projects-list{
-    width:40%;
+    width: 40%;
     max-width: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .project-area{
-    width: 50%;
+    width: 500px;
     display: flex;
     flex-flow: column;
     justify-content: center;
