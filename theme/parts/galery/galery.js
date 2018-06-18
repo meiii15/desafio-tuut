@@ -6,8 +6,6 @@
         type:'get',
         data: { 'action': 'get_images_galery'}
     }).done(function(data){
-        debugger;
-
         var images = [];
         for(let currrentImageUrlIndex in data){
             let currentImageGalery = data[currrentImageUrlIndex];
