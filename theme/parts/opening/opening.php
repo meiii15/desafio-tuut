@@ -7,7 +7,7 @@
 
 <section class="opening">
     <div class="opening-banner-container">
-        <img class="opening-banner" src="<?php echo get_template_directory_uri()."/imgs/opening-bkg.jpg"; ?>"/>
+        <!-- <img class="opening-banner" src="<?php echo get_template_directory_uri()."/imgs/opening-bkg.jpg"; ?>"/> -->
     </div>
 
     <div class="about-us-container">
@@ -20,5 +20,4 @@
         </div>
 
     </div>
-
 </section>

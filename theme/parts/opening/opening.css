@@ -6,10 +6,14 @@ section.opening{
 section.opening .opening-banner-container{
     height: calc(100% - 250px);
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/wp/wp-content/themes/teste-tuut/imgs/opening-bkg.jpg");
 }
 
-section.opening .opening-banner{
-    width: 100%
+section.opening .opening-banner-container .opening-banner{
+    size: 100% auto;
+    min-width: 1300px
 }
 
 section.opening .about-us-container{
